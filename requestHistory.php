@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-<table>
+<table id="requestTable">
     <thead>
         <tr>
             <th>Request ID</th>

@@ -12,7 +12,7 @@
     </ul>
 
     <h3>Return Process</h3>
-    <h4>Online Returns</h4>
+    <h4>Online Returns:</h4>
     <ol>
         <li><a href="contact.php">Contact us</a> to initiate a return.</li>
         <li>Ship the return package to the following address:
@@ -24,7 +24,7 @@
         <li>Include a copy of your order confirmation or packing slip.</li>
     </ol>
 
-    <h4>In Store Returns</h4>
+    <h4>In Store Returns:</h4>
     <p>Bring return eligible item and receipt to the store within 7 days of purchase for a complete refund.</p>
 
     <h3>Refunds</h3>

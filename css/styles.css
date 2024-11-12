@@ -18,7 +18,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: small;
+    font-size: 16px;
     line-height: 1.5;
     color:#5b4f47;
     text-align: center;
@@ -56,26 +56,33 @@ ul li {
     height: 18em;
 }
 
+ol li {
+  list-style-type: none;
+}
+
 
 /* menu styles */
-#menu {
+ /* #menu {
     display: flex;
+    margin:0;
+    padding:0;
     align-items: center;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
+    justify-content: space-evenly;
+    make all same height
 }
 
 #menu li {
     list-style-type: none;
-    color:#5b4f47;
-}
+    display:inline-flex;
+    font-size: small;
+    background-color:#f8f7f4;
+} */
 
-#menu a:link, #menu a:visited {
+/* #menu a:link, #menu a:visited {
         padding: 0.5em;
-        display: inline-block;
-}
-
+        display: inline-flex;
+}  */
+/* 
 #menu li:hover {
     background-color: #5b4f47;
 }
@@ -83,10 +90,7 @@ ul li {
 #menu a:hover {
     color: #f8f7f4;
 }
-
-.menu-toggle {
-    display: none;
-}
+ */
 
 
 /* table styles */
@@ -107,11 +111,11 @@ th, td {
     text-align: center;
 }
 
-tr:nth-child(even) {
-    background-color: #ddc1a7;
+tbody tr:nth-child(even) {
+    background-color: #ddc1a7a6;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background-color:#fff;
 }
 
@@ -160,8 +164,9 @@ form fieldset {
 }
 
 legend {
-    font-size: large;
+    font-size: small;
     font-style: italic;
+    border-radius: 5px;
     background-color: #5b4f47;
     color:#f8f7f4;
     padding:.2em;
@@ -215,8 +220,7 @@ button {
     border: 0;
 }
 
-
-/* Media query for smaller screens */
+/* 
 @media (max-width: 768px) {  
     nav {
         width: fit-content;
@@ -240,4 +244,4 @@ button {
     }
   
   }
- 
+  */

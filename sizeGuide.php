@@ -2,7 +2,7 @@
 
 <h1>Size Chart</h1>
 
-<table>
+<table id="sizeGuide">
     <thead>
         <tr>
             <th>Size</th>
